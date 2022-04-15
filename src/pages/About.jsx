@@ -9,7 +9,7 @@ function About() {
         Version <span className="text-white">1.0.0</span>
       </p>
     </>
-  );
+  )
 }
 
-export default About;
+export default About

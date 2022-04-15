@@ -1,5 +1,5 @@
-import { FaHome } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 function NotFound(props) {
   return (
@@ -18,7 +18,7 @@ function NotFound(props) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default NotFound;
+export default NotFound
