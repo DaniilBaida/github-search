@@ -23,7 +23,7 @@ export const GithubProvider = ({ children }) => {
       q: text,
     })
 
-    const response = await fetch(`${GITHUB_URL}/search/users?${params}`, {
+    const response = await fetch(`${GITHUB_URL}search/users?${params}`, {
       headers: {
         Authorization: ``,
       },
@@ -41,7 +41,7 @@ export const GithubProvider = ({ children }) => {
   const getUser = async (login) => {
     setLoading()
 
-    const response = await fetch(`${GITHUB_URL}/users/${login}`, {
+    const response = await fetch(`${GITHUB_URL}users/${login}`, {
       headers: {
         Authorization: ``,
       },
